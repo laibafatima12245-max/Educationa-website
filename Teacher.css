@@ -1,0 +1,106 @@
+
+
+.teacher-section {
+    padding: 140px 5% 80px;
+    background: #f8f8f8;
+    min-height: 100vh;
+}
+
+/* Teacher Heading */
+
+.teacher-title {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.teacher-title small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.teacher-title h1 {
+    font-size: 45px;
+    margin: 15px 0;
+    color: #222;
+}
+
+.teacher-title p {
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Cards */
+
+.cards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+/* Single Card */
+
+.card {
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+    border-bottom: 4px solid #f5b21b;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Teacher Icon */
+
+.teacher-icon {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #fff3d2;
+    font-size: 45px;
+}
+
+
+/* Teacher Name */
+
+.card h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+
+/* Subject */
+
+.subject {
+    color: #f5a900;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* Qualification */
+
+.qualification {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.qualification strong {
+    color: #333;
+}

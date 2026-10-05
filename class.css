@@ -1,0 +1,225 @@
+
+.classes-hero {
+    min-height:35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 130px 20px 70px;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("school.logo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.classes-hero-content {
+    max-width: 750px;
+    color: white;
+}
+
+
+.classes-hero-content small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+.classes-hero-content h1 {
+    font-size: 55px;
+    margin: 20px 0;
+}
+
+
+.classes-hero-content p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   CLASSES SECTION
+========================= */
+
+.classes-section {
+    padding: 80px 5%;
+    background: #f8f8f8;
+}
+
+
+.classes-title {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+
+.classes-title small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.classes-title h2 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+
+.classes-title p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+
+/* =========================
+   CLASS CARDS
+========================= */
+
+.class-cards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+.class-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+    border-bottom: 4px solid #f5b21b;
+    transition: 0.3s ease;
+}
+
+
+.class-card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.class-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #fff3d2;
+    font-size: 38px;
+}
+
+
+.class-card h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+
+.class-age {
+    display: inline-block;
+    padding: 6px 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #f5b21b;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.class-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   LEARNING APPROACH
+========================= */
+
+.learning-section {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.learning-content {
+    flex: 1;
+}
+
+.learning-content small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.learning-content h2 {
+    font-size: 38px;
+    margin: 15px 0 25px;
+    color: #222;
+}
+
+
+.learning-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+.learning-points {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.learning-points div {
+    padding: 18px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.learning-points span {
+    color: #f5b21b;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+/* =========================
+   CLASSES CTA
+========================= */
+
+.classes-cta {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f5b21b;
+    color: white;
+}
+
+.classes-cta a:hover {
+    background: #333;
+    color: white;
+}

@@ -1,0 +1,249 @@
+
+.about-hero {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 130px 20px 70px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("school.logo.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.about-hero-content {
+    color: white;
+    max-width: 750px;
+}
+
+.about-hero-content small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.about-hero-content h1 {
+    font-size: 58px;
+    margin: 20px 0;
+}
+
+.about-hero-content p {
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   ABOUT CONTENT
+========================= */
+
+.about-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    margin: 15px 0 25px;
+    color: #222;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   MISSION & VISION
+========================= */
+
+.mission-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.mission-box {
+    flex: 1;
+    padding: 40px;
+    background: #f7f7f7;
+    border-radius: 12px;
+    border-top: 5px solid #f5b21b;
+}
+
+.mission-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.mission-box p {
+    color: #666;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+
+.why-section {
+    background: #f8f8f8;
+    padding: 80px 5%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title small {
+    color: #f5b21b;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+
+.features {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.feature-box {
+    background: white;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.feature-box p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   CALL TO ACTION
+========================= */
+
+.about-cta {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f5b21b;
+    color: white;
+}
+
+.about-cta h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.about-cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: white;
+    color: #333;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #333;
+    color: white;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    padding: 80px 20px;
+    background: #222;
+    color: white;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-logo span {
+    color: #f5b21b;
+}
+
+footer p {
+    color: #bbb;
+    margin: 8px 0;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+

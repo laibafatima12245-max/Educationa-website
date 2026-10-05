@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arail,sans-serif;
+    color: #222;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+/*-----header----*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #222;
+}
+
+.login,
+.menu-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+/*----Navbar-----*/
+.nav{
+    width: 100px;
+    height: 30px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+background: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo-icon{
+width: 35px;
+height: 35px;
+display: flex;
+align-items: center;
+justify-content:center;
+background:#d94439 ;
+color: white;
+border-radius: 6px;
+}
+.logo span {
+    color: red;
+}
+
+nav {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: #333;
+    font: weight 600px; ;
+    font: size 13px; ;
+    transition:0.3s ;
+}
+nav a:hover,
+nav a.achieve{
+    color: #d9443b;
+}
+nav button{
+    border: none;
+    background: #e9a71b;
+    color: white;
+    padding: 11px 22px;
+    cursor: pointer;
+}
+.menu-btn{
+    display: none;
+    border: none;
+    background: none
+    font-size 25px;
+    cursor: pointer;
+}
+ /*------hero secion------*/
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #333;
+}
+
+/* Hero Image */
+
+.hero-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Dark Overlay */
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
+
+/*-----Hero-content------*/
+.content {
+    position: relative;
+    z-index: 2;
+    width: 55%;
+    padding-left: 8%;
+    color: white;
+}
+
+/* Small Heading */
+
+.content small {
+    display: block;
+    color: #f5b21b;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/* Main Heading */
+
+.content h1 {
+    font-size: 70px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/* Paragraph */
+
+.content p {
+    max-width: 520px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/*-----button-----*/
+.learn-btn {
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    background: #f5b21b;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 35px;
+}
+
+.learn-btn:hover {
+    background: #ffffff;
+    color: #333;
+    transform: translateY(-3px);
+}
+
+
+/*-----Three Buttons------*/
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+/* Red Button */
+
+.btn-red {
+    background: #e84c4c;
+    color: white;
+}
+
+.btn-red:hover {
+    background: #c93636;
+    transform: translateY(-3px);
+}
+
+/* Yellow Button */
+
+.btn-yellow {
+    background: #f5b21b;
+    color: white;
+}
+
+.btn-yellow:hover {
+    background: #d99700;
+    transform: translateY(-3px);
+}
+
+
+/* White Button */
+
+.btn-white {
+    background: white;
+    color: #333;
+}
+
+.btn-white:hover {
+    background: #eeeeee;
+    transform: translateY(-3px);
+}
